@@ -47,7 +47,7 @@ uv tool install crewai-cli
 
 Open a **new** terminal, then confirm:
 ```bash
-crewai version
+crewai --version
 ```
 
 > ⬆️ **Upgrade later:** `uv tool install crewai-cli --upgrade`.
@@ -162,7 +162,7 @@ folder**; you'll build in it.
 
 ## ✅ Setup checkpoint
 
-- [ ] `crewai version` prints a version.
+- [ ] `crewai --version` prints a version.
 - [ ] `crewai install` finished without errors.
 - [ ] `uv run python -c "import crewai"` runs clean.
 - [ ] `.env` has your LLM key (and search key, unless using the fallback).
